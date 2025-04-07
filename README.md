@@ -1,17 +1,25 @@
 # SportsJumpMotion
-Dataset for the CVPR Workshop CVSports 2025 – contains information about the dataset files and structure
 
-# CVSports Dataset for CVPR CVSports Workshop
-
-This repository provides an overview and documentation for the **CVSports Dataset** released as part of the CVPR CVSports Workshop. The dataset itself is hosted on OneDrive.
+Dataset for the CVPR CVSports 2025 Workshop – contains detailed information about the dataset files and structure.
 
 ## Overview
 
-The CVSports Dataset contains [brief description, e.g., videos, images, annotations, etc.] collected for analyzing sports events in computer vision research. It is designed to support various tasks such as [object detection, tracking, activity recognition, etc.]. 
+The **SportsJumpMotion** dataset is designed for analyzing jump events in sports. It includes comprehensive data to support various computer vision tasks in sports analytics, such as:
+
+- **Player Detection and Tracking:**  
+  Tracklets of cropped bounding boxes extracted from original video frames.
+- **Event Analysis:**  
+  Detailed annotations of jump events and jersey number information at the tracklet level.
+- **Binary Segmentation:**  
+  Binary segmentation masks provided as `.png` files at original frame resolution.
+- **Spatial Analysis:**  
+  Original video frames and optional homography `.npy` files for advanced geometric transformations.
+- **Jersey Number Legibility:**  
+  JSON files that indicate jersey number visibility on a frame-by-frame basis.
 
 ## Dataset Structure
 
-The dataset is organized as follows:
+The dataset is organized into the following directories:
 
 - **`data/`**:  
   Contains the raw data files (e.g., video clips, images).
@@ -25,45 +33,64 @@ The dataset is organized as follows:
 - **`README.md`**:  
   This file, which provides detailed information about the dataset.
 
-## File Descriptions
+### Directory Details
 
-Below is a brief description of the key files and folders:
+- **`event_annotations/`**  
+  Contains annotation files for jump events and jersey number annotations at the tracklet level. These files provide the temporal and spatial details of each jump event, along with corresponding jersey numbers.
 
-- **`data/`**:  
-  - `videos/`: Folder with video files of sports events.
-  - `images/`: Folder containing image frames extracted from videos.
-  
-- **`annotations/`**:  
-  - `labels.csv`: A CSV file listing the labels and metadata for each video/image.
-  
-- **`scripts/`**:  
-  - `process_data.py`: Python script for processing the raw data files.
+- **`images/`**  
+  Contains tracklets of cropped bounding boxes for players. Each sequence in this folder represents a series of images extracted from the original video frames, focusing on individual players.
 
-*Note: The above structure is an example. Please adjust the details according to your actual dataset structure.*
+- **`images_binary/`**  
+  Contains binary segmentation `.png` files that match the original frame resolution. These masks are useful for extracting and analyzing player regions or bounding boxes in the images.
+
+- **`json_legibility/`**  
+  Contains JSON files that specify jersey number visibility for each frame within a tracklet. A value of `1` indicates that the jersey number is visible, while `0` indicates it is not.
+
+- **`video/`**  
+  Contains the original video frames or video clips from which the tracklets are derived. This folder may also include optional homography `.npy` files that can be used for mapping or transforming coordinates in spatial analysis tasks.
 
 ## Accessing the Dataset
 
 The full dataset is hosted on OneDrive. You can download it using the following link:
 
-[Download CVSports Dataset](https://o365ust-my.sharepoint.com/:u:/g/personal/yinmay_office_ust_ac_kr/EVKOOgwTsuVOk2bYfvvNBr8BydMN45JV0ETHTFTJ8fToEA?e=vg1tPj)
+[Download SportsJumpMotion Dataset](https://o365ust-my.sharepoint.com/:u:/g/personal/yinmay_office_ust_ac_kr/EVKOOgwTsuVOk2bYfvvNBr8BydMN45JV0ETHTFTJ8fToEA?e=vg1tPj)
 
-**Steps to access:**
+**Steps to Access:**
 1. Click the link above.
 2. Download the entire dataset folder.
-3. Follow any included instructions for setting up or processing the data.
+3. Extract the files locally.
+4. Follow any additional instructions provided within the dataset package.
+
+## Usage
+
+- **Event Annotation Analysis:**  
+  Use the files in the `event_annotations/` folder to identify jump events and view detailed jersey number annotations at the tracklet level.
+
+- **Player Tracklets:**  
+  The `images/` folder contains sequences of cropped bounding boxes for players, useful for detection and tracking tasks.
+
+- **Binary Segmentation:**  
+  The `images_binary/` folder provides binary segmentation masks that can assist in refining player localization and segmentation analyses.
+
+- **Jersey Number Legibility:**  
+  The JSON files in the `json_legibility/` folder indicate jersey number visibility (1 for visible, 0 for invisible) on a per-frame basis, which is valuable for evaluating jersey detection performance.
+
+- **Video Reference and Homography:**  
+  The `video/` folder offers original video frames/clips for reference. Additionally, optional homography `.npy` files support spatial transformations and advanced analysis.
 
 ## Citation
 
-If you use this dataset in your research, please cite the dataset as follows:
+If you use this dataset in your research, please cite it as follows:
 
 > **Author(s):** Your Name  
-> **Title:** CVSports Dataset for CVPR CVSports Workshop  
+> **Title:** SportsJumpMotion Dataset for CVPR CVSports 2025 Workshop  
 > **Conference:** CVPR CVSports Workshop  
-> **Year:** [Year]
+> **Year:** 2025
 
 ## Contact
 
-For further information or questions, please contact:  
+For further information or questions, please contact:
+
 **Yin May Oo**  
 Email: [yinmay@kist.re.kr]
-
