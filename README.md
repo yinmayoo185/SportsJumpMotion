@@ -52,7 +52,7 @@ The full dataset is hosted on OneDrive. You can download it using the following 
   Use the files in the `event_annotations/` folder to identify jump events and view detailed jersey number annotations at the tracklet level.
 
 - **Player Tracklets:**  
-  The `images/` folder contains sequences of cropped bounding boxes for players, useful for detection and tracking tasks.
+  The `images/` folder contains sequences of cropped bounding boxes for players.
 
 - **Binary Segmentation:**  
   The `images_binary/` folder provides binary segmentation masks that can assist in refining player localization and segmentation analyses.
