@@ -45,7 +45,7 @@ Below is a brief description of the key files and folders:
 
 The full dataset is hosted on OneDrive. You can download it using the following link:
 
-[Download CVSports Dataset](YOUR_ONEDRIVE_LINK_HERE)
+[Download CVSports Dataset](https://o365ust-my.sharepoint.com/:u:/g/personal/yinmay_office_ust_ac_kr/EVKOOgwTsuVOk2bYfvvNBr8BydMN45JV0ETHTFTJ8fToEA?e=vg1tPj)
 
 **Steps to access:**
 1. Click the link above.
