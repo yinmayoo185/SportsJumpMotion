@@ -17,22 +17,6 @@ The **SportsJumpMotion** dataset is designed for analyzing jump events in sports
 - **Jersey Number Legibility:**  
   JSON files that indicate jersey number visibility on a frame-by-frame basis.
 
-## Dataset Structure
-
-The dataset is organized into the following directories:
-
-- **`data/`**:  
-  Contains the raw data files (e.g., video clips, images).
-  
-- **`annotations/`**:  
-  Contains metadata and annotations corresponding to the data files.
-  
-- **`scripts/`**:  
-  Contains helper scripts for data processing and analysis.
-  
-- **`README.md`**:  
-  This file, which provides detailed information about the dataset.
-
 ### Directory Details
 
 - **`event_annotations/`**  
