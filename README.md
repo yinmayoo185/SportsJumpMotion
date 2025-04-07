@@ -36,15 +36,13 @@ The **SportsJumpMotion** dataset is designed for player position rectification a
 
 ## Accessing the Dataset
 
-The full dataset is hosted on OneDrive. You can download it using the following link:
-
-[Download SportsJumpMotion Dataset](https://o365ust-my.sharepoint.com/:u:/g/personal/yinmay_office_ust_ac_kr/EVKOOgwTsuVOk2bYfvvNBr8BydMN45JV0ETHTFTJ8fToEA?e=vg1tPj)
+The full dataset is hosted on OneDrive.
 
 **Steps to Access:**
-1. Click the link above.
-2. Download the entire dataset folder.
+1. Please send an email to **yinmay@kist.re.kr** to request access.
+2. Download the entire dataset folder once access is granted.
 3. Extract the files locally.
-4. Follow any additional instructions provided within the dataset package.
+4. Follow the usage instructions provided below.
 
 ## Usage
 
