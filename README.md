@@ -1,10 +1,10 @@
-# SportsJumpMotion
+# Jump-Aware: Player Position Rectification and Identification in Dynamic Sports Using Jump Event Spotting 
 
-Dataset for the CVPR CVSports 2025 Workshop – contains detailed information about the dataset files and structure.
+SportsJumpMotion Dataset for the CVPR CVSports 2025 Workshop – contains detailed information about the dataset files and structure.
 
 ## Overview
 
-The **SportsJumpMotion** dataset is designed for analyzing jump events in sports. It includes comprehensive data to support various computer vision tasks in sports analytics, such as:
+The **SportsJumpMotion** dataset is designed for player position rectification and identification in dynamic sports. It includes comprehensive data to support various computer vision tasks in sports analytics, such as:
 
 - **Player Detection and Tracking:**  
   Tracklets of cropped bounding boxes extracted from original video frames.
