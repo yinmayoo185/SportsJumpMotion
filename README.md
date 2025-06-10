@@ -65,10 +65,14 @@ The full dataset is hosted on OneDrive.
 
 If you use this dataset in your research, please cite it as follows:
 
-> **Author(s):** Your Name  
-> **Title:** SportsJumpMotion Dataset for CVPR CVSports 2025 Workshop  
-> **Conference:** CVPR CVSports Workshop  
-> **Year:** 2025
+@InProceedings{Oo_2025_CVPR,
+    author    = {Oo, Yin May and Jamsrandorj, Ankhzaya and Chao, Vanyi and Nguyen, Hoang Quoc and Hwang, Yewon and Mun, Kyung-Ryoul and Kim, Jinwook},
+    title     = {Jump-Aware: Player Position Rectification and Identification in Dynamic Sports Using Jump Event Spotting},
+    booktitle = {Proceedings of the Computer Vision and Pattern Recognition Conference (CVPR) Workshops},
+    month     = {June},
+    year      = {2025},
+    pages     = {5935-5944}
+}
 
 ## Contact
 
