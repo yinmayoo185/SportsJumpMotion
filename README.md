@@ -61,10 +61,11 @@ The full dataset is hosted on OneDrive.
 - **Video Reference and Homography:**  
   The `video/` folder offers original video frames/clips for reference. Additionally, optional homography `.npy` files support spatial transformations and advanced analysis.
 
-## Citation
+### Citation
 
 If you use this dataset in your research, please cite it as follows:
 
+```bibtex
 @InProceedings{Oo_2025_CVPR,
     author    = {Oo, Yin May and Jamsrandorj, Ankhzaya and Chao, Vanyi and Nguyen, Hoang Quoc and Hwang, Yewon and Mun, Kyung-Ryoul and Kim, Jinwook},
     title     = {Jump-Aware: Player Position Rectification and Identification in Dynamic Sports Using Jump Event Spotting},
@@ -73,6 +74,7 @@ If you use this dataset in your research, please cite it as follows:
     year      = {2025},
     pages     = {5935-5944}
 }
+
 
 ## Contact
 
